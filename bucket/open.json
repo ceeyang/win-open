@@ -1,0 +1,13 @@
+{
+    "version": "1.0.0",
+    "description": "macOS-style `open` command for Windows: open files, folders and URLs from PowerShell, cmd and Git Bash (-a app, -R reveal, -e editor, -W wait).",
+    "homepage": "https://github.com/ceeyang/win-open",
+    "license": "MIT",
+    "url": "https://github.com/ceeyang/win-open/releases/download/v1.0.0/win-open-1.0.0.zip",
+    "hash": "524fc686f84d196618e7a8830812a0043fa40c744c559192a631380a1789af6b",
+    "bin": "open.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/ceeyang/win-open/releases/download/v$version/win-open-$version.zip"
+    }
+}
